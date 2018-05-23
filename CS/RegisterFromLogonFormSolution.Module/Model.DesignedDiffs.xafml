@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" ?>
+<Application Title="RegisterFromLogonFormSolution" Logo="ExpressAppLogo">
+  <Views>
+    <DetailView Id="AuthenticationStandardLogonParameters_DetailView">
+      <Items>
+        <ActionContainerViewItem Id="RestorePasswordActionItem" IsNewNode="True" ActionContainer="RestorePasswordCategory" PaintStyle="Image" />
+        <StaticText Id="PasswordHint" Text="(To log on, leave the Password field empty and type Sam or John in the User Name field)" IsNewNode="True" />
+        <ActionContainerViewItem Id="RegisterUserActionItem" IsNewNode="True" ActionContainer="RegisterUserCategory" PaintStyle="Image" />
+      </Items>
+      <Layout>
+        <LayoutGroup Id="Main" Caption="Main" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100">
+          <LayoutGroup Id="RootGroup" Caption="RootGroup" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100">
+            <LayoutGroup Id="ImageGroup" Caption="ImageGroup(3)" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="8">
+              <LayoutItem Id="LogonImage" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100" ViewItem="LogonImage" />
+            </LayoutGroup>
+            <LayoutGroup Id="EditorsGroup" Caption="EditorsGroup" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="91">
+              <LayoutGroup Id="Text" Caption="Text(6)" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="6">
+                <LayoutItem Id="LogonText" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="100" ViewItem="LogonText" />
+              </LayoutGroup>
+              <LayoutGroup Id="Editors" Caption="Editors" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="93">
+                <LayoutGroup Id="4d5fc467-a437-4a79-b542-732e1cd37682" IsNewNode="True" ShowCaption="False" Caption="4d5fc467-a437-4a79-b542-732e1cd37682(12)" Direction="Vertical" Index="0" RelativeSize="14" ImageName="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default">
+                  <LayoutGroup Id="Item3" IsNewNode="True" ShowCaption="False" Caption="Item3" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Direction="Horizontal" Index="0" RelativeSize="100" ImageName="">
+                    <LayoutGroup Id="Item2" IsNewNode="True" ShowCaption="False" Caption="Item2" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Direction="Vertical" Index="0" RelativeSize="77" ImageName="">
+                      <LayoutItem Id="UserName" IsNewNode="True" ShowCaption="True" ViewItem="UserName" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="0" RelativeSize="43" />
+                      <LayoutItem Id="Password" IsNewNode="True" ViewItem="Password" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="1" RelativeSize="35" />
+                      <LayoutItem Id="Item5" IsNewNode="True" ShowCaption="False" ViewItem="" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="2" RelativeSize="21" />
+                    </LayoutGroup>
+                    <LayoutGroup Id="Item1" IsNewNode="True" ShowCaption="False" Caption="Item1" CaptionLocation="Top" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Direction="Vertical" Index="1" RelativeSize="22" ImageName="">
+                      <LayoutItem Id="RegisterUserActionItem" IsNewNode="True" ShowCaption="False" ViewItem="RegisterUserActionItem" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="0" RelativeSize="50" />
+                      <LayoutItem Id="RestorePasswordActionItem" IsNewNode="True" ShowCaption="False" ViewItem="RestorePasswordActionItem" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="1" RelativeSize="50" />
+                    </LayoutGroup>
+                  </LayoutGroup>
+                </LayoutGroup>
+                <LayoutItem Id="UserName" Removed="True" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="0" RelativeSize="5" ViewItem="UserName" />
+                <LayoutItem Id="Password" Removed="True" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" Index="1" RelativeSize="5" ViewItem="Password" />
+                <LayoutItem Id="PasswordHint" Index="1" IsNewNode="True" CaptionLocation="Default" CaptionWordWrap="Default" CaptionHorizontalAlignment="Default" CaptionVerticalAlignment="Default" RelativeSize="85" ViewItem="PasswordHint" />
+              </LayoutGroup>
+            </LayoutGroup>
+          </LayoutGroup>
+        </LayoutGroup>
+      </Layout>
+    </DetailView>
+  </Views>
+</Application>
+
