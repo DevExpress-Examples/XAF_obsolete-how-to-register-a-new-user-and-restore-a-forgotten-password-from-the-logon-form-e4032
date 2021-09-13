@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<Application>
-  <ActionDesign>
-    <Actions>
-      <Action Id="RegisterUser" IsPostBackRequired="True" />
-      <Action Id="RestorePassword" IsPostBackRequired="True" />
-    </Actions>
-  </ActionDesign>
-</Application>
